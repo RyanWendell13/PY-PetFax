@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    </head>
+    <body id="InfoPage">
+        <div id="Info">
+            <h1>{{pet.pet_name}}</h1>
+            <p>{{pet.pet_fact}}</p>
+            <img src="{{pet.pet_photo}}" alt="{{pet.pet_name}}">
+            <a href="/pets">Back</a>
+        </div>
+        
+    </body>
+</html>

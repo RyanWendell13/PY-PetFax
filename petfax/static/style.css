@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    color: white;
+}
+
+body>a{
+    color: black;
+}
+
+header{
+    background-color: gray;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+header>h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+
+#Pets{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+#Card{
+    margin-top: 25px;
+    background-color: cornflowerblue;
+    width: 500px;
+}
+#Card>*{
+    margin-top: 20;
+    margin-bottom: 30px;
+    text-align: center;
+    display: block;
+}
+#Card>img{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+    max-width: 300px;
+}
+
+
+#Info{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: cornflowerblue;
+    width: 600px;
+}
+#Info>*{
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    display: block;
+}
+#Info>h1{
+    padding-top: 20px;
+}
+#Info>a{
+    padding-bottom: 40px;
+}
+#Info>img{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 700px;
+    max-width: 500px;
+}
+
+form{
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    background-color: cornflowerblue;
+    height: 200px;
+    width: 500px;
+}
+
+form>*{
+    margin-top: 5px;
+    margin-left: 40px;
+    color: black;
+    display: block;
+}
+form>#Text{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+}

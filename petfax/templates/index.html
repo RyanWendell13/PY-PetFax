@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to PetFax</h1>
+        </header>
+        
+        <div id="Pets">
+            {% for pet in pets %}
+                <div id="Card">
+                    <h2>{{pet.pet_name}}</h2>
+                    <img src="{{pet.pet_photo}}" alt="Photo of pet"/>
+                    <a href="/pets/{{pet.pet_id}}">More Information</a>
+                </div>
+            {% endfor %}
+        </div>
+
+        <a href="/pets/new">New</a>
+    </body>
+</html>
